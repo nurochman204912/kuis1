@@ -1,0 +1,203 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #ffffff;
+}
+
+#wrapper {
+  width: 960px;
+  height: 1100px;
+  margin: auto;
+}
+
+#wrapper #menu {
+  height: 50px;
+  background-color: #000000;
+} 
+
+#wrapper #menu #mLeft {
+  width: 480px;
+  height: 50px;
+  float: left;
+}
+
+#wrapper #menu #mLeft ul {
+  padding-top: 10px;
+  list-style-type: none;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#wrapper #menu #mLeft ul li {
+  float: left;
+  padding-left: 50px;
+}
+
+#wrapper #menu #mLeft ul li a {
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#wrapper #menu #mRight {
+  padding-top: 10px;
+  width: 480px;
+  height: 40px;
+  float: right;
+}
+
+#wrapper #menu #mRight img {
+  padding: 0 10px 10px 10px;
+  float: right;
+  height: 30px;
+  width: 150px;
+}
+
+#wrapper #topImages {
+  height: 200px;
+}
+
+#wrapper #topImages img {
+  padding: 10px 10px 0 10px;
+  width: 940px;
+  height: 250px; 
+}
+#wrapper #okMenu {
+  margin: 0 10px 0 10px;
+  padding: 10px 10px 0 10px;
+  background-color:#FFFFFF;
+  height: 30px;
+}
+#wrapper #okMenu ul {
+  list-style-type: none;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#wrapper #okMenu ul li {
+  float: left;
+  padding-left: 50px;
+}
+
+#wrapper #okMenu ul li a {
+  display: block;
+  font-size: 16px;
+  color:#000000;
+  text-decoration: none;
+}
+
+#wrapper #topImages #topMenu {
+  margin: 0 10px 0 10px;
+  padding: 10px 10px 0 10px;
+  background-color: #000000;
+  height: 30px;
+}
+
+#wrapper #topImages ul {
+  list-style-type: none;
+  padding-left: 10px;
+  text-align: center;
+}
+
+#wrapper #topImages ul li {
+  float: left;
+  padding-left: 50px;
+}
+
+#wrapper #topImages ul li a {
+  display: block;
+  font-size: 16px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#wrapper #content {
+  height: 700px;
+}
+
+#wrapper #content #cTop {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 300px;
+}
+
+#wrapper #content #cTop img {
+  width: 100%;
+}
+
+#wrapper #content #cTop #cTopLeft {
+  width: 470px;
+  float: left;
+}
+
+#wrapper #content #cTop #cTopLeft img {
+  width: 100%;
+  height: 200px;
+}
+
+#wrapper #content #cTop #cTopRight {
+  width: 470px;
+  float: right;
+}
+
+#wrapper #content #cTop #cTopRight img {
+  width: 100%;
+  height: 200px;
+}
+#wrapper #content #cTop #tabahan img {
+  width: 100%;
+  height: 70px;
+}
+
+#wrapper #content #cBottom {
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  height: 400px;
+}
+
+#wrapper #content #cBottom img {
+  height: 70px;
+  width: 100%;
+}
+
+#wrapper #content #cBottom #cBottomLow {
+  height: 300px;
+}
+
+#wrapper #content #cBottom #cBottomLow h2 {
+  text-align: center;
+  padding-top: 10px;
+}
+
+#wrapper .promo {
+  display: block;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#wrapper .card {
+  float: left;
+  width: 30%;
+  text-align: center;
+  padding: 0 1.5% 0 1.5%;
+}
+
+#wrapper .card .promoImg {
+  height: 200px !important;
+}
+
+
+
+#wrapper #footer {
+  height: 30px;
+  text-align: center;
+  padding: 10px;
+}
